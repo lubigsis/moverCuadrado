@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(68, 67, 67);
+}
+
+/*NOTA: el contenedor es 'relative' y la caja es 'absolute', p/ poder crear una animación relativa al contenedor*/
+.contenedor-total{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+   /* border: 5px solid rgb(68, 67, 67);*/
+    position: relative;
+    margin: auto;
+}
+
+.contenedor-total .caja{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(230, 8, 230);
+   /* border: 1px solid red;*/
+    position: absolute;
+}
